@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.alk84.smkpublik.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_absen_guru"
+        android:name="com.alk84.smkpublik.ui.absengurudanstaff.AbsenGuruDanStaffFragment"
+        android:label="@string/menu_absen_guru_dan_staff"
+        tools:layout="@layout/fragment_absen_guru_dan_staff" />
+
+    <fragment
+        android:id="@+id/nav_absen_siswa"
+        android:name="com.alk84.smkpublik.ui.absensiswa.AbsenSiswaFragment"
+        android:label="@string/menu_absen_siswa"
+        tools:layout="@layout/fragment_absen_siswa" />
+
+    <fragment
+        android:id="@+id/nav_materi_pelajaran"
+        android:name="com.alk84.smkpublik.ui.materipelajaran.MateriPelajaranFragment"
+        android:label="@string/menu_materi_pelajaran"
+        tools:layout="@layout/fragment_materi_pelajaran" />
+    <fragment
+        android:id="@+id/nav_ruang_chat"
+        android:name="com.alk84.smkpublik.ui.ruangchat.RuangChatFragment"
+        android:label="@string/menu_ruang_chat"
+        tools:layout="@layout/fragment_ruang_chat"/>
+
+    <fragment
+        android:id="@+id/nav_informasi"
+        android:name="com.alk84.smkpublik.ui.informasipendaftaran.InformasiPendaftaranFragment"
+        android:label="@string/menu_informasi"
+        tools:layout="@layout/fragment_informasi_pendaftaran" />
+
+    <fragment
+        android:id="@+id/nav_pengaturan"
+        android:name="com.alk84.smkpublik.ui.pengaturan.PengaturanFragment"
+        android:label="@string/menu_pengaturan"
+        tools:layout="@layout/fragment_pengaturan" />
+
+    <fragment
+    android:id="@+id/nav_Kontak"
+    android:name="com.alk84.smkpublik.ui.kontak.KontakFragment"
+    android:label="@string/menu_kontak"
+    tools:layout="@layout/fragment_kontak" />
+
+    <fragment
+        android:id="@+id/nav_keluar"
+        android:name="com.alk84.smkpublik.ui.keluar.KeluarFragment"
+        android:label="@string/keluar"
+        tools:layout="@layout/fragment_keluar" />
+</navigation>

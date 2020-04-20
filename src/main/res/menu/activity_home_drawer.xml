@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_absen_guru"
+            android:icon="@drawable/ic_absen_guru"
+            android:title="Absen Guru Dan Staff" />
+        <item
+            android:id="@+id/nav_absen_siswa"
+            android:icon="@drawable/menu_absen_siswa"
+            android:title="Absen Siswa" />
+        <item
+            android:id="@+id/nav_materi_pelajaran"
+            android:icon="@drawable/menu_materi_pelajaran"
+            android:title="Materi Pelajaran" />
+        <item
+            android:id="@+id/nav_ruang_chat"
+            android:icon="@drawable/menu_ruang_chat_guru"
+            android:title="Ruang Chat" />
+        <item
+            android:id="@+id/nav_informasi"
+            android:icon="@drawable/informasi"
+            android:title="Informasi Pendaftaran" />
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/menu_pengaturan"
+            android:title="Pengaturan" />
+        <item
+            android:id="@+id/nav_Kontak"
+            android:icon="@drawable/menu_kontak"
+            android:title="Kontak" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@drawable/menu_keluar"
+            android:title="Keluar" />
+
+    </group>
+</menu>

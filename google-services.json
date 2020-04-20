@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "284251690502",
+    "firebase_url": "https://smk-publik.firebaseio.com",
+    "project_id": "smk-publik",
+    "storage_bucket": "smk-publik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284251690502:android:8654f20f0b000374a11587",
+        "android_client_info": {
+          "package_name": "com.alk84.smkpublik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284251690502-e9fce2uvmvbfj4qul38091insagcghci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alk84.smkpublik",
+            "certificate_hash": "4d4c423dc38d4262a687b91cfa1b067e05150bc0"
+          }
+        },
+        {
+          "client_id": "284251690502-u3lv676s8irljdpgtuuk8o8bcnrlspoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtiFUMclPXADGCqTCZFsYa2Xzi7uCDV8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284251690502-u3lv676s8irljdpgtuuk8o8bcnrlspoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
